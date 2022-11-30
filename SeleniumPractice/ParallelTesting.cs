@@ -7,6 +7,7 @@ namespace SeleniumPractice
     using OpenQA.Selenium.Support.UI;
     using SeleniumPractice.Utilities;
 
+     
     public class ParallelTesting
     {
         IWebDriver driver; 

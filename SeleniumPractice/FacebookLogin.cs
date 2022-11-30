@@ -64,11 +64,7 @@ namespace SeleniumPractice
             //send password
             IWebElement passElement = webDriver.FindElement(By.Id("pass"));
             passElement.SendKeys("EnterYourPassword");
-
-
-
-
-
+             
 
         }
 

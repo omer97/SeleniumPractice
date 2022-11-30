@@ -19,13 +19,13 @@ namespace SeleniumPractice
         {
             webDriver = new ChromeDriver();
             webDriver.Manage().Window.Maximize();
-            webDriver.Url = "https://www.facebook.com";
+            webDriver.Url = "https://revelpk.onescreensolutions.com/b/signin";
         }
 
         [OneTimeTearDown]
         public void Quit()
         {
-            webDriver.Quit();
+          //  webDriver.Quit();
         }
     }
 }

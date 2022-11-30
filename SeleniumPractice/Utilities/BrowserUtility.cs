@@ -14,7 +14,7 @@ namespace SeleniumPractice.Utilities
         {
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
-            driver.Url = "https://www.facebook.com";
+            driver.Url = "https://revelpk.onescreensolutions.com";
             return driver;
 
         }
